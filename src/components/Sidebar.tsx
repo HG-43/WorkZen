@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Sidebar() {
   return (
     <div className="bg-dark text-white p-3" style={{ width: "250px" }}>

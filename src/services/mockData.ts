@@ -1,18 +1,18 @@
-
 import { Task } from "../types/task";
-
 
 export const mockTasks: Task[] = [
   {
     id: "1",
-    title: "Build dashboard UI",
+    title: "Build WorkZen dashboard",
     status: "todo",
-    priority: "high"
+    priority: "high",
+    createdAt: new Date().toISOString()
   },
   {
     id: "2",
-    title: "Create task manager",
+    title: "Create task system",
     status: "in-progress",
-    priority: "medium"
+    priority: "medium",
+    createdAt: new Date().toISOString()
   }
 ];

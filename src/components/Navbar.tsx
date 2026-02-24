@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Navbar() {
   return (
     <div className="bg-white border-bottom px-4 py-2 d-flex justify-content-between align-items-center">

@@ -1,6 +1,8 @@
+import React from "react";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import AppLayout from "@layouts/AppLayout";
-import Dashboard from "@pages/Dashboard";
+import AppLayout from "../layouts/AppLayout";
+import { Dashboard } from "../pages/Dashboard";
 
 export default function AppRoutes() {
   return (
